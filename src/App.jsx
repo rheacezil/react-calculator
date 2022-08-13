@@ -65,18 +65,18 @@ function App() {
     }
   };
   return (
-    <div class="d-flex align-items-center justify-content-center mx-auto vh-100 w-100">
-      <div id="calculator" class="py-2 rounded">
-        <div class="container">
-          <div class="row g-2">
-            <div class="col-12">
-              <h1 id="display" class="fs-1 my-4 text-end text-white">
+    <div className="d-flex align-items-center justify-content-center mx-auto vh-100 w-100">
+      <div id="calculator" className="py-2 rounded">
+        <div className="container">
+          <div className="row g-2">
+            <div className="col-12">
+              <h1 id="display" className="fs-1 my-4 text-end text-white">
                 {getDisplay()}
               </h1>
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-secondary text-center rounded-circle"
                 id="clearMemoryButton"
                 onClick={() => {
@@ -86,9 +86,9 @@ function App() {
                 C
               </div>
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-secondary text-center rounded-circle"
                 onClick={() => {
                   secondNumber
@@ -99,9 +99,9 @@ function App() {
                 ±
               </div>
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-secondary text-center rounded-circle"
                 onClick={() => {
                   secondNumber
@@ -112,9 +112,9 @@ function App() {
                 %
               </div>
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-warning text-center rounded-circle"
                 onClick={() => {
                   getOperation("÷");
@@ -124,9 +124,9 @@ function App() {
               </div>
             </div>
 
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-dark text-center rounded-circle"
                 onClick={() => {
                   getNumber(7);
@@ -135,9 +135,9 @@ function App() {
                 7
               </div>
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-dark text-center rounded-circle"
                 onClick={() => {
                   getNumber(8);
@@ -146,9 +146,9 @@ function App() {
                 8
               </div>
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-dark text-center rounded-circle"
                 onClick={() => {
                   getNumber(9);
@@ -157,9 +157,9 @@ function App() {
                 9
               </div>
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-warning text-center rounded-circle"
                 onClick={() => {
                   getOperation("x");
@@ -169,9 +169,9 @@ function App() {
               </div>
             </div>
 
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-dark text-center rounded-circle"
                 onClick={() => {
                   getNumber(4);
@@ -180,9 +180,9 @@ function App() {
                 4
               </div>
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-dark text-center rounded-circle"
                 onClick={() => {
                   getNumber(5);
@@ -191,9 +191,9 @@ function App() {
                 5
               </div>
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-dark text-center rounded-circle"
                 onClick={() => {
                   getNumber(6);
@@ -202,9 +202,9 @@ function App() {
                 6
               </div>
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-warning text-center rounded-circle"
                 onClick={() => {
                   getOperation("-");
@@ -214,9 +214,9 @@ function App() {
               </div>
             </div>
 
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-dark text-center rounded-circle"
                 onClick={() => {
                   getNumber(1);
@@ -225,9 +225,9 @@ function App() {
                 1
               </div>
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-dark text-center rounded-circle"
                 onClick={() => {
                   getNumber(2);
@@ -236,9 +236,9 @@ function App() {
                 2
               </div>
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-dark text-center rounded-circle"
                 onClick={() => {
                   getNumber(3);
@@ -247,9 +247,9 @@ function App() {
                 3
               </div>
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-warning text-center rounded-circle"
                 onClick={() => {
                   getOperation("+");
@@ -259,9 +259,9 @@ function App() {
               </div>
             </div>
 
-            <div class="col-6">
+            <div className="col-6">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-dark text-center rounded-pill"
                 onClick={() => {
                   getNumber(0);
@@ -270,18 +270,20 @@ function App() {
                 0
               </div>
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-dark text-center rounded-circle"
-                onclick="clickNumber('.')"
+                onClick={() => {
+                  getNumber(".");
+                }}
               >
                 .
               </div>
             </div>
-            <div class="col-3">
+            <div className="col-3">
               <div
-                class="button
+                className="button
                         fs-5 fw-bold text-bg-warning text-center rounded-circle"
                 onClick={() => {
                   getOperation("=");
